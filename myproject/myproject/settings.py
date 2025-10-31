@@ -13,7 +13,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'replace-me-with-a-secure-key')
 
 # Saved for Render deployment on 31-Oct-2025
-DEBUG = True
+DEBUG = False
+
 
 
 ALLOWED_HOSTS = ['ecommerce-app-furniture.onrender.com', '127.0.0.1', 'localhost']
@@ -92,7 +93,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # Login redirects
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'home'
+
 
 # Payment keys
 PAYSTACK_SECRET_KEY = os.environ.get('PAYSTACK_SECRET_KEY', '')
