@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-2e18!7tx6aut(rb4w_)jqtr2s1#l-5opxwirx8e2r01a-9i9&j
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ecommerce-brenda.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ecommerce-app-furniture.onrender.com']
+
 
 
 
