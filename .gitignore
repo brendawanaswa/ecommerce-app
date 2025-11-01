@@ -3,6 +3,8 @@ __pycache__/
 *.pyc
 db.sqlite3
 /staticfiles/
-/media/
+# Ignore everything in media except products
+media/*
+!media/products/
 *.env
 .DS_Store
